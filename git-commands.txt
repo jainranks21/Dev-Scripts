@@ -15,3 +15,11 @@ CREATE & SWITCH TO A NEW BRANCH - git checkout -b branch_name
 UPDATE BRANCHES FROM REMOTE - git remote update origin --prune
 
 RENAME A LOCAL BRANCH THAT YOU ARE ON - git branch -m NEW_BRANCH_NAME
+
+DELETE A BRANCH - git branch -d branch_name
+
+FORCE DELETE A BRANCH (if it is unmerged, etc.) - git branch -D branch_name
+
+STASH CHANGES - git stash
+
+RETRIEVE CHANGES FROM STASH - git stash pop
