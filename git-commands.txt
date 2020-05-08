@@ -1,0 +1,17 @@
+STAGE YOUR CHANGES - git add .
+
+COMMIT YOUR CHANGES - git commit -m "COMMIT_MESSAGE_HERE"
+
+LIST GIT BRANCHES - git branch
+
+PUSH YOUR CHANGES TO REMOTE - git push
+
+PUSH A NEW BRANCH TO REMOTE - git push -u origin branch_name
+
+SWITCH TO ANOTHER BRANCH - git checkout branch_name
+
+CREATE & SWITCH TO A NEW BRANCH - git checkout -b branch_name
+
+UPDATE BRANCHES FROM REMOTE - git remote update origin --prune
+
+RENAME A LOCAL BRANCH THAT YOU ARE ON - git branch -m NEW_BRANCH_NAME
